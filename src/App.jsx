@@ -1,23 +1,22 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import About from './components/About';
-import Skills from './components/Skills';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './Navbar';
+// import HeroSection from './components/HeroSection';
+ import About from './About';
+ import Skills from './Skills';
+ import Portfolio from './Portfolio';
+ //import Contact from './Contact';
+// import Footer from './components/Footer';
 import './styles.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="font-roboto">
       <Navbar />
-      <HeroSection />
       <About />
       <Skills />
       <Portfolio />
-      <Contact />
-      <Footer />
+      {/* <Contact />
+      <Footer /> */}
     </div>
   );
 };
