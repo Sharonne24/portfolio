@@ -52,3 +52,105 @@ body {
 .nav-socials a:hover {
   color: #f0a500;
 }
+
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-left, .hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container h1 {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.social-links {
+  margin: 1rem 0;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.social-links a:hover {
+  color: #f0a500;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.5rem 1.5rem; /* Adjust padding as needed */
+  font-size: 1rem; /* Adjust font size as needed */
+  background-color: transparent;
+  color: #f0a500;
+  text-decoration: none;
+  border: 2px solid #f0a500;
+  border-radius: 4px;
+  margin-top: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  width: 90px; 
+  height: 25px;
+  text-align: center; 
+}
+
+.btn-primary:hover {
+  background-color: #f0a500;
+  color: #1c1c1c;
+}
+
+.hero-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.intro h2 {
+  color: #f0a500;
+}
+
+.intro h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.learn-more {
+  display: inline-block;
+  color: #f0a500;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.learn-more:hover {
+  color: #d88b00;
+}
